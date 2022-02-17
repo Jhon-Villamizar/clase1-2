@@ -60,43 +60,43 @@ styles.css
 ## Clase 4
 - Se continua la explicacion de las etiquetas:
   
-    ```html
-<h1>Titulo com mayor gerarquia semantica</h1>
-<h2>Titulo</h2>
-<h3>Titulo</h3>
-<h4>Titulo</h4>
-<h5>Titulo</h5>
-<h6>Titulo</h6>
-<p>parrafo</p>
-<ul> lista "marca los elementos con viñetas"
-    <li>elemento de la lista</li>
-</ul>
-<ol> lista ordenada "maraca los elementos con numeros"
-    <li>elemento de la lista</li>
-</ol>
-<a>links o hipervinculos</a>
-<b>negrilla</b>
-<br>salto de linea</br>
-<hr>linea</hr>
-<button>boton</button>
-<div>bloque o secion de documento</div>
-<form> formulario
-    <lable>etiqueta para el input</lable>
-    <input>espacio para digitar</input>
-    <textarea>espacio mayor que el input</textarea>
-    <checkbox>cuadro de seleccin</checkbox>
-    <select>lista de seleccion</select>
-</form>
-<img/> imagen
-<table>
-    <tr> fila de tabla
-        <th>titulo de tabla</th>
-    </tr>
-    <tr> fila de tabla
-        <td>informacion de tabla</td>
-    </tr>
-</table>
-    ```
+```html
+    <h1>Titulo com mayor gerarquia semantica</h1>
+    <h2>Titulo</h2>
+    <h3>Titulo</h3>
+    <h4>Titulo</h4>
+    <h5>Titulo</h5>
+    <h6>Titulo</h6>
+    <p>parrafo</p>
+    <ul> lista "marca los elementos con viñetas"
+        <li>elemento de la lista</li>
+    </ul>
+    <ol> lista ordenada "maraca los elementos con numeros"
+        <li>elemento de la lista</li>
+    </ol>
+    <a>links o hipervinculos</a>
+    <b>negrilla</b>
+    <br>salto de linea</br>
+    <hr>linea</hr>
+    <button>boton</button>
+    <div>bloque o secion de documento</div>
+    <form> formulario
+        <lable>etiqueta para el input</lable>
+        <input>espacio para digitar</input>
+        <textarea>espacio mayor que el input</textarea>
+        <checkbox>cuadro de seleccin</checkbox>
+        <select>lista de seleccion</select>
+    </form>
+    <img/> imagen
+    <table>
+        <tr> fila de tabla
+            <th>titulo de tabla</th>
+        </tr>
+        <tr> fila de tabla
+            <td>informacion de tabla</td>
+        </tr>
+    </table>
+```
 
 - Se utiliza class como atributo en las etiquetas para añadir una clase y usarla para agregar estilos, en la hoja de estilos se pone un punto y el nombre de la clase para pador usar. 
 
