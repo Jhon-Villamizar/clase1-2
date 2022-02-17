@@ -1,22 +1,47 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 body {
-    background: black;
     display: flex;
     flex-flow: row wrap;
 }
-header{
-    background-color: red;
+header {
+    background-image: url('https://imageio.forbes.com/specials-images/imageserve/5eb6bb89170c9400064865a7/The-goal-is-for-people-to-be-engaged-and-even-look-forward-to-attending-meetings-/960x0.jpg?fit=bounds&format=jpg&width=960');
+    height: 200px;
+    text-align: center;
     width: 100%;
 }
-nav {
+header h1 {
+    margin-top: 44px;
+}
+.navegacion {
     background-color: green;
+    display: flex;
+    flex-flow: row wrap;
+    height: 20px;
     width: 100%;
 }
-section{
+.navegacion .logo{
+    width: 50%;
+}
+.navegacion .logo img{
+    height: 10px;
+    width: 30px;
+}
+.navegacion ul {
+    display: flex;
+    flex-flow: row;
+    list-style: none;
+    width: 50%;
+}
+
+.navegacion ul li {
+    margin-right: 10px;
+}
+
+section {
     background-color: yellow;
     display: inline-block;
     width: 70%;
